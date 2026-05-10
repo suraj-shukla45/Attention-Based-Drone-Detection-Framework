@@ -1,5 +1,7 @@
 # Attention-Based-Drone-Detection-Framework
 This project focuses on real-time drone detection and monitoring in surveillance environments using deep learning and computer vision techniques. It aims to reliably detect small, distant UAVs under challenging conditions such as fog, low light, cluttered backgrounds, and long-range scenes. To improve detection accuracy, the YOLO11n model was enhanced with attention mechanisms, including Coordinate Attention (CA).
+<img width="800" height="1000" alt="val_batch2_pred" src="https://github.com/user-attachments/assets/2fa6dfa7-4c55-460b-97e7-a965f409f876" />
+
 ## Base Architecture (YOLO11n)
 The initial model architecture was based on YOLO11n, a lightweight real-time object detection framework optimized for fast inference and efficient multi-scale feature extraction. YOLO11n was selected due to its low computational cost and strong performance in detecting small aerial targets in surveillance environments.
 <img width="800" height="512" alt="ChatGPT Image May 10, 2026, 06_52_35 PM" src="https://github.com/user-attachments/assets/cf35aebf-816e-4b30-8cdf-b3f99ac01be3" />
