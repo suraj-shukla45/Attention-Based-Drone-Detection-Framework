@@ -1,2 +1,7 @@
 # Real-time-drone-detection
 This project centers on real-time drone detection and monitoring within surveillance settings by deep learning and computer vision techniques. It aims to reliably identify small, distant UAVs under challenging conditions such as fog, low light, cluttered backgrounds, and long-range views. To enhance detection accuracy, the YOLO11n model was improved with attention mechanisms like Coordinate Attention (CA), GELAN-E feature enhancement methods, and synthetic image augmentation to diversify the dataset and strengthen model robustness.
+## Dataset Description
+Detfly:
+The model was trained and evaluated using the Det-Fly dataset, a UAV detection dataset designed for air-to-air visual drone detection using monocular cameras. The dataset contains more than 13,000 images captured by a flying DJI Mavic2 UAV and includes various real-world surveillance scenarios.
+Det-Fly covers multiple environmental conditions including sky, urban, field, and mountain backgrounds, along with different viewing angles such as front, top, and bottom views. A significant portion of the dataset contains very small drone targets, making it suitable for tiny-object detection research. 
+To further improve model robustness and generalization, synthetic drone images and augmentation techniques were also incorporated into the training dataset for handling complex environments, long-range detection, and challenging lighting conditions.
