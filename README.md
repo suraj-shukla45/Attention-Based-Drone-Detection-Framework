@@ -1,15 +1,13 @@
 # Attention-Based-Drone-Detection-Framework
 This project focuses on real-time drone detection and monitoring in surveillance environments using deep learning and computer vision techniques. It aims to reliably detect small, distant UAVs under challenging conditions such as fog, low light, cluttered backgrounds, and long-range scenes. To improve detection accuracy, the YOLO11n model was enhanced with attention mechanisms, including Coordinate Attention (CA).
-
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3da9641c-6c00-421d-b7c6-42e318fca3fc" />
-
 
 ## Base Architecture (YOLO11n)
 The initial model architecture was based on YOLO11n, a lightweight real-time object detection framework optimized for fast inference and efficient multi-scale feature extraction. YOLO11n was selected due to its low computational cost and strong performance in detecting small aerial targets in surveillance environments.
-<img width="800" height="512" alt="ChatGPT Image May 10, 2026, 06_52_35 PM" src="https://github.com/user-attachments/assets/cf35aebf-816e-4b30-8cdf-b3f99ac01be3" />
+<img width="600" height="400" alt="Image " src="https://github.com/user-attachments/assets/cf35aebf-816e-4b30-8cdf-b3f99ac01be3" />
 ## Enhanced Architecture (YOLO11n Coordinate Attention)
 To improve drone detection performance, the baseline YOLO11n architecture was enhanced by integrating Coordinate Attention (CA) modules. Coordinate Attention improved spatial and channel-aware feature representation, enabling better localization of small and distant UAVs. These enhancements boosted the model's robustness, feature extraction capability, and detection accuracy in complex real-world environments, including fog, low-light conditions, cluttered backgrounds, and long-range surveillance scenes.
-<img width="800" height="512" alt="2222" src="https://github.com/user-attachments/assets/1b295067-3c78-4fa2-b055-bb6083cb19b3" />
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/1b295067-3c78-4fa2-b055-bb6083cb19b3" />
 
 ## Dataset Description 
 ## Detfly:
