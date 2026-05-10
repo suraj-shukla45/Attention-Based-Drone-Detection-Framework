@@ -1,2 +1,2 @@
 # Real-time-drone-detection
-Developed a real-time drone detection system using computer vision and deep learning techniques to identify drones from live video streams.
+This project centers on real-time drone detection and monitoring within surveillance settings by deep learning and computer vision techniques. It aims to reliably identify small, distant UAVs under challenging conditions such as fog, low light, cluttered backgrounds, and long-range views. To enhance detection accuracy, the YOLO11n model was improved with attention mechanisms like Coordinate Attention (CA), GELAN-E feature enhancement methods, and synthetic image augmentation to diversify the dataset and strengthen model robustness.
